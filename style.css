@@ -348,4 +348,11 @@ body {
     line-height: 1.7;
   }
 }
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  padding-bottom: 32px; /* ← これ */
+}
+
 
