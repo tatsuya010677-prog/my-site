@@ -352,8 +352,15 @@ body {
   background: #fff;
   border-radius: 16px;
   padding: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 32px;
 }
+@media (max-width: 768px) {
+  .card {
+    padding: 16px;
+    padding-bottom: 32px; /* ← 追加 */
+  }
+}
+
 
 
 
