@@ -354,27 +354,8 @@ body {
   padding: 20px;
   padding-bottom: 32px;
 }
-@media (max-width: 768px) {
-  .card {
-    padding: 16px;
-    padding-bottom: 32px; /* ← 追加 */
-  }
-}
-@media (max-width: 768px) {
-  .card {
-    min-height: 220px;
-  }
-}
-@media (max-width: 768px) {
-  .card {
-    padding-bottom: 40px;
-  }
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
+
 
 
 
