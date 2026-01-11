@@ -352,7 +352,8 @@ body {
   background: #fff;
   border-radius: 16px;
   padding: 20px;
-  padding-bottom: 32px; /* ← これ */
+  padding-bottom: 40px;
 }
+
 
 
