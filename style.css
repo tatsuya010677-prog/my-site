@@ -354,6 +354,12 @@ body {
   padding: 20px;
   padding-bottom: 32px;
 }
+@media (max-width: 768px) {
+  .card {
+    padding-bottom: 40px;
+  }
+}
+
 
 
 
