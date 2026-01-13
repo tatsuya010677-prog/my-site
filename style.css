@@ -100,9 +100,5 @@ body {
     padding: 24px;
   }
 }
-@media (max-width: 768px) {
-  .hero {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-}
+
+
