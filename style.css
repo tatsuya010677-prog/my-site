@@ -359,6 +359,13 @@ body {
     padding-bottom: 40px;
   }
 }
+@media (max-width: 768px) {
+  .card {
+    padding-bottom: 80px !important;
+    background: red !important;
+  }
+}
+
 
 
 
