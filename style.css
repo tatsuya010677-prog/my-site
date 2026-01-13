@@ -1,5 +1,5 @@
 /* =====================
-   全体リセット
+   リセット
 ===================== */
 * {
   margin: 0;
@@ -24,17 +24,37 @@ body {
 .header {
   background: #111;
   color: #fff;
-  padding: 32px 0;
+  padding: 24px 0;
   text-align: center;
 }
 
-.header h1 {
+.logo h1 {
   font-size: 28px;
   letter-spacing: 0.05em;
 }
 
+.logo span {
+  color: #4f8cff;
+}
+
+/* ナビ */
+.nav {
+  margin-top: 16px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  opacity: 0.7;
+}
+
 /* =====================
-   メインエリア
+   メイン
 ===================== */
 .main {
   max-width: 1000px;
@@ -43,7 +63,32 @@ body {
 }
 
 /* =====================
-   カード並び
+   ヒーロー
+===================== */
+.hero {
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 16px;
+}
+
+/* =====================
+   セクション
+===================== */
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* =====================
+   カード
 ===================== */
 .cards {
   display: grid;
@@ -51,9 +96,6 @@ body {
   gap: 40px;
 }
 
-/* =====================
-   カード
-===================== */
 .card {
   background: #fff;
   padding: 32px;
@@ -61,13 +103,11 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
-/* カードタイトル */
 .card h3 {
   font-size: 20px;
   margin-bottom: 16px;
 }
 
-/* カード本文 */
 .card p {
   font-size: 15px;
 }
@@ -88,8 +128,18 @@ body {
    スマホ調整
 ===================== */
 @media (max-width: 768px) {
+
   .main {
     padding: 60px 16px;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
   }
 
   .cards {
@@ -99,4 +149,5 @@ body {
   .card {
     padding: 24px;
   }
+
 }
