@@ -362,7 +362,6 @@ body {
 @media (max-width: 768px) {
   .card {
     padding-bottom: 80px !important;
-    background: red !important;
   }
 }
 /* スマホ用：カード下の余白を強制的に揃える */
@@ -372,6 +371,7 @@ body {
     margin-bottom: 24px !important;
   }
 }
+
 
 
 
